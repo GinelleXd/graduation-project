@@ -1,0 +1,498 @@
+a {
+  display: block;
+  color: #fff; }
+
+body {
+  background: #f4f5f7; }
+
+.navCon, .mainCon, .friend, .down {
+  width: 1200px;
+  margin: 0 auto; }
+
+#nav {
+  height: 55px;
+  background: #785545; }
+
+.navCon {
+  height: 55px;
+  position: relative; }
+  .navCon .logo, .navCon .list, .navCon .input {
+    float: left; }
+  .navCon .logo {
+    height: 35px;
+    width: 85px;
+    background: url(../images/catball_black.png) no-repeat center 2px;
+    background-size: 86px 35px;
+    margin: 10px 12px 0 0; }
+  .navCon .list {
+    height: 55px;
+    width: 405px; }
+    .navCon .list li {
+      float: left;
+      width: 75px;
+      height: 55px;
+      margin: 0 5px; }
+      .navCon .list li a {
+        width: 75px;
+        height: 55px;
+        font-size: 16px;
+        line-height: 55px;
+        text-align: center; }
+    .navCon .list li:nth-of-type(2) a {
+      background: #aa968d; }
+    .navCon .list li a:hover {
+      background: #aa968d; }
+  .navCon .input {
+    height: 30px;
+    width: 170px;
+    margin: 12px 140px 0 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3); }
+    .navCon .input input::-webkit-input-placeholder {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400px; }
+    .navCon .input input {
+      float: left;
+      height: 30px;
+      border: none;
+      width: 120px;
+      background: transparent;
+      margin-left: 20px;
+      color: #fff; }
+    .navCon .input a {
+      float: left;
+      height: 18px;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      margin-top: 4px; }
+  .navCon .login {
+    float: right;
+    height: 55px;
+    width: 175px; }
+    .navCon .login li {
+      float: left;
+      width: 75px;
+      height: 55px;
+      margin: 0 5px; }
+      .navCon .login li a {
+        width: 75px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        font-size: 16px; }
+    .navCon .login li a:hover {
+      background: #aa968d; }
+  .navCon .allready {
+    position: absolute;
+    height: 55px;
+    width: 248px;
+    left: 812px;
+    display: none; }
+    .navCon .allready li {
+      float: left; }
+    .navCon .allready li:first-of-type {
+      width: 50px;
+      height: 55px;
+      margin-right: 10px; }
+      .navCon .allready li:first-of-type a {
+        width: 40px;
+        height: 40px;
+        margin: 7px 0 0 5px; }
+        .navCon .allready li:first-of-type a img {
+          width: 40px;
+          height: 40px;
+          border-radius: 20px; }
+    .navCon .allready li:nth-of-type(2) {
+      width: 48px;
+      height: 55px;
+      margin-right: 20px; }
+      .navCon .allready li:nth-of-type(2) a {
+        width: 20px;
+        height: 20px;
+        margin: 19px 0 0 14px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 20px; }
+    .navCon .allready li:last-of-type {
+      width: 120px;
+      height: 55px; }
+      .navCon .allready li:last-of-type a {
+        width: 120px;
+        height: 35px;
+        background: #f8b107;
+        border-radius: 17px;
+        margin-top: 10px; }
+        .navCon .allready li:last-of-type a i {
+          width: 20px;
+          height: 20px;
+          float: left;
+          margin: 6px 7px 0 20px; }
+        .navCon .allready li:last-of-type a p {
+          float: left;
+          margin-top: 6px;
+          font-size: 14px; }
+
+.none {
+  display: none; }
+
+.show {
+  display: block !important; }
+
+#photo {
+  height: 180px;
+  background: url(../images/banner.jpg) no-repeat center #ccc;
+  margin-bottom: 10px; }
+
+#main {
+  overflow: hidden;
+  padding: 20px 0 0; }
+
+.mainCon {
+  position: relative; }
+
+.main-left {
+  width: 900px;
+  float: left; }
+  .main-left .title {
+    width: 900px;
+    height: 55px;
+    background: #fbf4e8;
+    position: relative; }
+    .main-left .title .future {
+      width: 150px;
+      height: 25px;
+      padding: 15px 0;
+      float: left;
+      text-align: center;
+      cursor: pointer;
+      font-size: 14px;
+      color: #666;
+      line-height: 25px; }
+    .main-left .title .end {
+      width: 150px;
+      height: 25px;
+      padding: 15px 0;
+      float: left;
+      text-align: center;
+      cursor: pointer;
+      font-size: 14px;
+      color: #666;
+      line-height: 25px; }
+    .main-left .title .more {
+      width: 93px;
+      height: 25px;
+      margin-top: 15px;
+      padding-right: 20px;
+      float: right; }
+      .main-left .title .more .choose {
+        width: 20px;
+        height: 20px;
+        margin: 1.5px 5px 0 0;
+        background: url(../images/ico-20.png) no-repeat left -121px;
+        float: left; }
+      .main-left .title .more span {
+        color: #f29b22;
+        font-size: 12px;
+        float: left;
+        display: block;
+        height: 20px;
+        line-height: 20px; }
+    .main-left .title p {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      border-radius: 5px;
+      left: 145px;
+      top: 22.5px;
+      background: #fbf4e8; }
+  .main-left .time {
+    height: 35px;
+    width: 900px;
+    background: #fff; }
+    .main-left .time h2 {
+      width: 150px;
+      height: 25px;
+      padding: 5px 0;
+      float: left;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      line-height: 25px; }
+    .main-left .time ul {
+      width: 745px;
+      height: 35px;
+      float: left;
+      padding-left: 5px; }
+      .main-left .time ul li {
+        float: left;
+        height: 25px;
+        margin: 5px 20px 0 0; }
+        .main-left .time ul li a {
+          font-size: 14px;
+          height: 25px;
+          line-height: 25px;
+          color: #666;
+          padding: 0 5px; }
+  .main-left .place {
+    height: 35px;
+    position: relative; }
+    .main-left .place h2 {
+      width: 150px;
+      height: 25px;
+      background: #8dd9f1;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      line-height: 25px;
+      font-size: 14px;
+      float: left; }
+    .main-left .place i {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 10px;
+      top: 7px;
+      background: url(../images/ico-20.png) no-repeat left -160px; }
+    .main-left .place ul {
+      float: left;
+      width: 745px;
+      height: 35px;
+      padding-left: 5px;
+      background: #fff; }
+      .main-left .place ul li {
+        float: left;
+        height: 25px;
+        margin: 5px 10px 0 0; }
+        .main-left .place ul li a {
+          font-size: 14px;
+          height: 25px;
+          line-height: 25px;
+          color: #999;
+          padding: 0 5px; }
+  .main-left .con-list {
+    width: 940px;
+    margin-top: 20px;
+    overflow: hidden; }
+    .main-left .con-list li {
+      width: 428px;
+      height: 203px;
+      margin: 0 40px 40px 0;
+      border: 1px solid #dedede;
+      background: #fff;
+      border-radius: 5px;
+      float: left; }
+      .main-left .con-list li img {
+        width: 150px;
+        height: 203px;
+        float: left; }
+      .main-left .con-list li .information {
+        width: 240px;
+        height: 183px;
+        float: left;
+        padding: 10px 10px 0; }
+        .main-left .con-list li .information a {
+          height: 50px;
+          font-size: 16px;
+          color: #333; }
+        .main-left .con-list li .information .in-title {
+          width: 240px;
+          height: 25px;
+          padding-bottom: 5px;
+          margin-bottom: 15px; }
+          .main-left .con-list li .information .in-title i {
+            display: block;
+            width: 25px;
+            height: 25px;
+            background: url(../images/ico-25.png) no-repeat left -200px;
+            float: left; }
+          .main-left .con-list li .information .in-title span {
+            display: block;
+            width: 95px;
+            height: 25px;
+            float: left;
+            line-height: 25px;
+            color: #f29b22;
+            font-size: 14px; }
+        .main-left .con-list li .information p {
+          font-size: 12px;
+          color: #666;
+          padding-bottom: 5px;
+          margin-bottom: 15px; }
+      .main-left .con-list li .recommend {
+        font-size: 12px;
+        width: 58px;
+        height: 25px;
+        background: #ff5079;
+        color: #fff;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 25px; }
+
+.main-right {
+  width: 280px;
+  height: 571px;
+  position: absolute;
+  right: 0px;
+  top: 0px; }
+  .main-right .new {
+    width: 280px;
+    height: 40px;
+    padding: 10px 0;
+    background: #ff5079;
+    margin-bottom: 15px; }
+    .main-right .new .plane {
+      width: 40px;
+      height: 40px;
+      margin: 0 5px 0 55px;
+      background: url(../images/ico-40.png) no-repeat left -800px;
+      float: left; }
+    .main-right .new .word {
+      float: left;
+      width: 180px;
+      height: 40px;
+      font-size: 18px;
+      color: #fff;
+      line-height: 40px; }
+  .main-right .review {
+    width: 258px;
+    padding: 0 10px 10px;
+    height: 476px;
+    margin: 0 0 20px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #dedede; }
+    .main-right .review h1 {
+      width: 258px;
+      height: 64px;
+      background: url(../images/bg-expoed.png) no-repeat 10px 0;
+      font-size: 18px;
+      color: #666;
+      text-indent: 85px;
+      line-height: 64px; }
+    .main-right .review ul {
+      width: 238px;
+      height: 380px;
+      padding: 10px; }
+      .main-right .review ul .re-list {
+        width: 238px;
+        height: 30px; }
+        .main-right .review ul .re-list p:nth-of-type(1) {
+          width: 50px;
+          height: 25px;
+          margin-right: 5px;
+          border-bottom: 1px solid #ffc867;
+          font-size: 12px;
+          color: #666;
+          text-align: center;
+          float: left; }
+        .main-right .review ul .re-list p:nth-of-type(2) {
+          width: 180px;
+          height: 25px;
+          border-bottom: 1px solid #ffc867;
+          font-size: 12px;
+          color: #666;
+          text-align: center;
+          float: left; }
+      .main-right .review ul li {
+        width: 238px;
+        height: 30px;
+        margin-bottom: 5px; }
+        .main-right .review ul li a {
+          width: 238px;
+          height: 30px; }
+          .main-right .review ul li a p:nth-of-type(1) {
+            width: 50px;
+            height: 25px;
+            font-size: 12px;
+            color: #666;
+            margin-right: 5px;
+            float: left;
+            text-align: center;
+            line-height: 25px; }
+          .main-right .review ul li a p:nth-of-type(2) {
+            width: 183px;
+            height: 30px;
+            line-height: 15px;
+            font-size: 12px;
+            color: #666;
+            float: left; }
+
+.active-title {
+  background: #ffc560;
+  font-size: 16px;
+  color: #fff !important; }
+
+.active-time {
+  background: #8dd9f1;
+  color: #fff !important;
+  border-radius: 12.5px; }
+
+.main-right {
+  width: 280px;
+  float: left; }
+
+footer {
+  height: 280px;
+  background: #fff; }
+  footer .friend {
+    height: 201px;
+    padding-top: 30px; }
+  footer .link {
+    width: 540px;
+    float: left;
+    margin-left: 150px; }
+    footer .link h2 {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 10px; }
+    footer .link ul li {
+      float: left; }
+      footer .link ul li a {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        color: #999; }
+  footer .message {
+    float: left;
+    height: 146px;
+    width: 260px;
+    margin-left: 50px; }
+    footer .message h2 {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 10px; }
+    footer .message ul {
+      width: 260px;
+      height: 40px; }
+      footer .message ul li {
+        float: left; }
+        footer .message ul li a {
+          width: 70px;
+          height: 20px;
+          color: #999;
+          font-size: 12px; }
+      footer .message ul li:nth-of-type(4) a {
+        width: 50px; }
+    footer .message img {
+      width: 260px;
+      height: 46px;
+      margin-top: 20px; }
+  footer .down {
+    height: 50px; }
+    footer .down .box {
+      width: 600px;
+      height: 20px;
+      margin-left: 350px; }
+      footer .down .box a {
+        color: #999;
+        font-size: 12px;
+        float: left; }
+      footer .down .box img {
+        width: 30px;
+        height: 24px;
+        float: left; }
+
+/*# sourceMappingURL=convention.css.map */

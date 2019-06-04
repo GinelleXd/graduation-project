@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,+DAAc;EACZ,0BAA0B,EAAE,QAAQ;AAGxC,oCAAc;EACZ,cAAc,EAAE,IAAI;EACpB,mBAAmB,EAAE,OAAO;EAC5B,kDAAc;IACZ,cAAc,EAAE,IAAI;AAItB,6GAA0B;EACxB,cAAc,EAAE,IAAI",
+"sources": ["effect-fade.scss"],
+"names": [],
+"file": "effect-fade.css"
+}

@@ -1,0 +1,315 @@
+a {
+  display: block;
+  color: #fff; }
+
+body {
+  background: #f4f5f7; }
+
+.navCon, .mainCon, .community, .friend, .down {
+  width: 1200px;
+  margin: 0 auto; }
+
+#nav {
+  height: 55px;
+  background: #785545; }
+
+.navCon {
+  height: 55px;
+  position: relative; }
+  .navCon .logo, .navCon .list, .navCon .input {
+    float: left; }
+  .navCon .logo {
+    height: 35px;
+    width: 86px;
+    background: url(../images/catball_black.png) no-repeat;
+    background-size: 86px 35px;
+    margin: 10px 12px 0 0; }
+  .navCon .list {
+    height: 55px;
+    width: 405px; }
+    .navCon .list li {
+      float: left;
+      width: 75px;
+      height: 55px;
+      margin: 0 5px; }
+      .navCon .list li a {
+        width: 75px;
+        height: 55px;
+        font-size: 16px;
+        line-height: 55px;
+        text-align: center; }
+    .navCon .list li a:hover {
+      background: #aa968d; }
+  .navCon .input {
+    height: 30px;
+    width: 170px;
+    margin: 12px 140px 0 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3); }
+    .navCon .input input::-webkit-input-placeholder {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400px; }
+    .navCon .input input {
+      float: left;
+      height: 30px;
+      border: none;
+      width: 120px;
+      background: transparent;
+      margin-left: 20px;
+      color: #fff; }
+    .navCon .input a {
+      float: left;
+      height: 18px;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      margin-top: 4px; }
+  .navCon .login {
+    float: right;
+    height: 55px;
+    width: 175px; }
+    .navCon .login li {
+      float: left;
+      width: 75px;
+      height: 55px;
+      margin: 0 5px; }
+      .navCon .login li a {
+        width: 75px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        font-size: 16px; }
+    .navCon .login li a:hover {
+      background: #aa968d; }
+  .navCon .allready {
+    position: absolute;
+    height: 55px;
+    width: 248px;
+    left: 812px;
+    display: none; }
+    .navCon .allready li {
+      float: left; }
+    .navCon .allready li:first-of-type {
+      width: 50px;
+      height: 55px;
+      margin-right: 10px; }
+      .navCon .allready li:first-of-type a {
+        width: 40px;
+        height: 40px;
+        margin: 7px 0 0 5px; }
+        .navCon .allready li:first-of-type a img {
+          width: 40px;
+          height: 40px;
+          border-radius: 20px; }
+    .navCon .allready li:nth-of-type(2) {
+      width: 48px;
+      height: 55px;
+      margin-right: 20px; }
+      .navCon .allready li:nth-of-type(2) a {
+        width: 20px;
+        height: 20px;
+        margin: 19px 0 0 14px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 20px; }
+    .navCon .allready li:last-of-type {
+      width: 120px;
+      height: 55px; }
+      .navCon .allready li:last-of-type a {
+        width: 120px;
+        height: 35px;
+        background: #f8b107;
+        border-radius: 17px;
+        margin-top: 10px; }
+        .navCon .allready li:last-of-type a i {
+          width: 20px;
+          height: 20px;
+          float: left;
+          margin: 6px 7px 0 20px; }
+        .navCon .allready li:last-of-type a p {
+          float: left;
+          margin-top: 6px;
+          font-size: 14px; }
+
+.none {
+  display: none; }
+
+.show {
+  display: block !important; }
+
+#main {
+  height: 750px;
+  background: #fff;
+  margin-bottom: 20px; }
+
+.mainCon {
+  height: 750px; }
+  .mainCon .tips {
+    height: 58px;
+    margin: 0 0 20px;
+    padding: 20px 0 0;
+    color: #f25c5c;
+    font-size: 14px; }
+    .mainCon .tips span {
+      height: 19px;
+      font-size: 14px;
+      color: #f25c5c;
+      margin: 0 0 20px;
+      display: inline-block; }
+
+.form1 {
+  width: 1200px;
+  height: 630px;
+  border: 1px solid #e6e6e6;
+  background: #fcfcfc; }
+  .form1 h2 {
+    width: 1160px;
+    height: 42px;
+    color: #999;
+    margin: 0 20px;
+    font-size: 12px;
+    line-height: 42px;
+    border-bottom: 1px solid #e6e6e6; }
+    .form1 h2 .imnation {
+      color: #333;
+      font-size: 14px;
+      height: 42px;
+      line-height: 42px;
+      font-weight: 900; }
+    .form1 h2 .sf25 {
+      color: #f25c5c;
+      font-size: 12px;
+      height: 42px;
+      line-height: 42px; }
+  .form1 .detail {
+    width: 1160px;
+    padding: 20px;
+    height: 540px; }
+    .form1 .detail li {
+      width: 800px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: 900; }
+      .form1 .detail li .title {
+        width: 130px;
+        height: 30px;
+        color: #666;
+        font-size: 14px;
+        line-height: 30px;
+        float: left; }
+        .form1 .detail li .title span {
+          color: #f25c5c; }
+      .form1 .detail li .message {
+        width: 400px;
+        height: 28px; }
+      .form1 .detail li .date {
+        width: 130px;
+        height: 28px;
+        margin-right: 20px; }
+      .form1 .detail li .hour, .form1 .detail li .minute {
+        width: 60px;
+        height: 28px; }
+      .form1 .detail li .city {
+        width: 130px;
+        height: 28px;
+        line-height: 28px; }
+      .form1 .detail li input::-webkit-input-placeholder {
+        color: #999;
+        font-size: 12px;
+        text-align: center; }
+      .form1 .detail li .where {
+        width: 380px;
+        height: 28px;
+        padding-left: 20px; }
+      .form1 .detail li .where::-webkit-input-placeholder {
+        text-align: left; }
+      .form1 .detail li .myval, .form1 .detail li .price {
+        width: 130px;
+        height: 28px;
+        margin-right: 20px; }
+      .form1 .detail li .contact {
+        width: 378px;
+        height: 98px;
+        padding-left: 20px;
+        resize: none; }
+      .form1 .detail li .contact::-webkit-input-placeholder {
+        color: #999;
+        font-size: 12px;
+        line-height: 30px; }
+      .form1 .detail li button {
+        width: 80px;
+        height: 40px;
+        border-radius: 5px;
+        background: #f39800;
+        border: none;
+        color: #fff;
+        margin-left: 130px;
+        cursor: pointer; }
+
+.border {
+  border-radius: 5px;
+  border: 1px solid #e6e6e6; }
+
+footer {
+  height: 280px;
+  background: #fff; }
+  footer .friend {
+    height: 201px;
+    padding-top: 30px; }
+  footer .link {
+    width: 540px;
+    float: left;
+    margin-left: 150px; }
+    footer .link h2 {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 10px; }
+    footer .link ul li {
+      float: left; }
+      footer .link ul li a {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        color: #999; }
+  footer .message {
+    float: left;
+    height: 146px;
+    width: 260px;
+    margin-left: 50px; }
+    footer .message h2 {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 10px; }
+    footer .message ul {
+      width: 260px;
+      height: 40px; }
+      footer .message ul li {
+        float: left; }
+        footer .message ul li a {
+          width: 70px;
+          height: 20px;
+          color: #999;
+          font-size: 12px; }
+      footer .message ul li:nth-of-type(4) a {
+        width: 50px; }
+    footer .message img {
+      width: 260px;
+      height: 46px;
+      margin-top: 20px; }
+  footer .down {
+    height: 50px; }
+    footer .down .box {
+      width: 600px;
+      height: 20px;
+      margin-left: 350px; }
+      footer .down .box a {
+        color: #999;
+        font-size: 12px;
+        float: left; }
+      footer .down .box img {
+        width: 30px;
+        height: 24px;
+        float: left; }
+
+/*# sourceMappingURL=add.css.map */

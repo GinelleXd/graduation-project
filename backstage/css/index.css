@@ -1,0 +1,576 @@
+html,body{
+    height: 100%;
+}
+body{
+    position: relative;
+}
+.header{
+    height:50px;
+    background:#428bca;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.header img{
+    width: 122px;
+    height: 50px;
+    margin-left: 30px;
+}
+.header>.info{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    
+}
+
+.header>.info>p{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    font-size:14px;
+}
+
+.logout{
+    cursor: pointer;
+}
+.container_detail{
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+.container_detail>.tabbar{
+    width:220px;
+    height: 100%;
+    border-right: 1px solid #f2f2f2;
+    flex-shrink: 0;
+}
+.container_detail>.tabbar>ul>li{
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+.container_detail>.tabbar>ul>.active{
+    background: #428bca;
+    color:#fff;
+}
+.container_detail>.article{
+    width: 950px;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    padding-top: 20px;
+}
+.container_detail>.article>ul{
+    width: 940px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+.article>ul>li{
+    width: 940px;
+    height: 30px;
+    border-bottom: 1px solid #dedede;
+}
+.article>ul>li:last-of-type{
+    border-bottom: none;
+}
+.article>ul>li>.id{
+    width: 120px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px solid #dedede;
+    float: left;
+}
+.article>ul>li>.atitle{
+    width: 300px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid #dedede;
+    overflow: hidden;
+    float: left;
+}
+.article>ul>li>.word{
+    width: 457px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid #dedede;
+    overflow: hidden;
+    float: left;
+}
+.article>ul>li>.btn{
+    width: 60px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.container_detail>.user{
+    width: 950px;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    display: none;
+    padding-top: 20px; 
+}
+.container_detail>.user>ul{
+    width: 500px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+.user>ul>li{
+    width: 500px;
+    height: 30px;
+    border-bottom: 1px solid #dedede;
+}
+.user>ul>li:last-of-type{
+    border-bottom: none;
+}
+.user>ul>li>.uname{
+    width: 250px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px solid #dedede;
+    float: left;
+}
+
+.user>ul>li>.del{
+    width: 249px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.container_detail>.message{
+    width: 950px;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    display: none;
+}
+.s_detail {
+    width: 428px;
+    height: 203px;
+    margin: 0 40px 40px 0;
+    border: 1px solid #dedede;
+    background: #fff;
+    border-radius: 5px;
+    float: left; 
+    position: relative;
+}
+.s_detail .s_information {
+    width: 255px;
+    height: 183px;
+    float: left;
+    padding: 10px 10px 0; 
+    position: relative;
+}
+.s_detail .s_information i{
+    width: 40px;
+    display: block;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #333; 
+    float:left;
+}
+.s_detail .s_information p {
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #333; 
+    float:left;
+}
+.s_detail .s_information p:nth-of-type(2) {
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333; 
+}
+.s_detail .s_information p:nth-of-type(3) {
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333; 
+}
+.s_detail .s_information img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+.s_detail .button{
+    width: 170px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.s_detail .button p {
+    float: left;
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    background: #02bcf9;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.s_detail .button .s_delete {
+    margin-right: 10px;
+}
+.container_detail>.add{
+    width: 950px;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    display: none;
+}
+.none{
+    display: none;
+}
+
+.add h2{
+    width: 150px;
+    height: 30px;
+    margin-bottom:10px;
+    background: #a9a9a9;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.detail {
+    width: 428px;
+    height: 203px;
+    margin: 0 40px 40px 0;
+    border: 1px solid #dedede;
+    background: #fff;
+    border-radius: 5px;
+    float: left; 
+    position: relative;
+}
+.detail img {
+    width: 150px;
+    height: 203px;
+    float: left; 
+}
+.detail .information {
+    width: 255px;
+    height: 183px;
+    float: left;
+    padding: 10px 10px 0; 
+    position: relative;
+}
+.detail .information i{
+    width: 40px;
+    display: block;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #333; 
+    float:left;
+}
+.detail .information p {
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #333; 
+    float:left;
+}
+.detail .information p:nth-of-type(2) {
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333; 
+}
+.detail .information p:nth-of-type(3) {
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333; 
+}
+.detail .information img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+.detail .button{
+    width: 170px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.detail .button p {
+    float: left;
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    background: #02bcf9;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.detail .button .delete,.detail .button .examine {
+    margin-right: 10px;
+}
+.change_box{
+    background: rgba(221, 221, 221, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.change_modity{
+    width: 500px;
+    height: 440px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+.change_modity li{
+    width: 500px;
+    height: 30px;
+    margin: 0 0 20px;
+}
+.change_modity li p{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    float: left;
+}
+.change_modity li input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.change_modity li:nth-of-type(7) input:first-of-type,.change_modity li:nth-of-type(8) input:first-of-type{
+    border: none;
+    width:200px;
+}
+.change_modity li:nth-of-type(7) input:last-of-type,.change_modity li:nth-of-type(8) input:last-of-type{
+    width:200px;
+}
+.change_modity li:nth-of-type(9){
+    width: 140px;
+    margin-left: 360px;
+}
+.change_modity li:nth-of-type(9) p{
+    background: #bbb;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.new_box{
+    background: rgba(221, 221, 221, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.new_modity{
+    width: 500px;
+    height: 440px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+.new_modity li{
+    width: 500px;
+    height: 30px;
+    margin: 0 0 20px;
+}
+.new_modity li p{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    float: left;
+}
+.new_modity li input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.new_modity li:nth-of-type(7) input:first-of-type,.new_modity li:nth-of-type(8) input:first-of-type{
+    border: none;
+    width:200px;
+}
+.new_modity li:nth-of-type(7) input:last-of-type,.new_modity li:nth-of-type(8) input:last-of-type{
+    width:200px;
+}
+.new_modity li:nth-of-type(9){
+    width: 140px;
+    margin-left: 360px;
+}
+.new_modity li:nth-of-type(9) p{
+    background: #bbb;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.storage_box{
+    background: rgba(221, 221, 221, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.storage_modity{
+    width: 500px;
+    height: 440px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+.storage_modity li{
+    width: 500px;
+    height: 30px;
+    margin: 0 0 20px;
+}
+.storage_modity li p{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    float: left;
+}
+.storage_modity li input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.storage_modity li:nth-of-type(7) input:first-of-type,.storage_modity li:nth-of-type(8) input:first-of-type{
+    border: none;
+    width:200px;
+}
+.storage_modity li:nth-of-type(7) input:last-of-type,.storage_modity li:nth-of-type(8) input:last-of-type{
+    width:200px;
+}
+.storage_modity li:nth-of-type(9){
+    width: 140px;
+    margin-left: 360px;
+}
+.storage_modity li:nth-of-type(9) p{
+    background: #bbb;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.delete_box{
+    background: rgba(221, 221, 221, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.delete_box .choose{
+    width: 260px;
+    height: 110px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 200px auto;
+}
+.delete_box .choose h2{
+    width: 260px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.delete_box .choose .box{
+    width: 200px;
+    height: 30px;
+    margin-left: 60px;
+}
+.delete_box .choose p{
+    width: 60px;
+    height: 30px;
+    background: #02bcf9;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.delete_box .choose .yes{
+    margin-right: 20px;
+}

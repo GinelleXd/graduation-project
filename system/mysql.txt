@@ -1,0 +1,13 @@
+创建漫展详情页表
+create table details
+(
+	id int primary key auto_increment,
+        iname varchar(100),
+        iphoto varchar(100),
+        itime varchar(100),
+        iwhere varchar(200),
+        ival varchar(50),
+        ijoin int(2),
+        iguest varchar(100),
+        pguest varchar(300)
+)

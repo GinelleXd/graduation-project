@@ -1,0 +1,372 @@
+@charset "utf-8";
+a{
+    display: block;
+    color: #fff;
+}
+body{
+    background: #f4f5f7;
+}
+.navCon,.convention,.community,.friend,.down{
+    width: 1200px;
+    margin: 0 auto;
+}
+#nav{
+    height: 55px;
+    background: #785545;
+}
+.navCon{
+    height: 55px;
+    position: relative;
+    .logo,.list,.input{
+        float:left;
+    }
+    .logo{
+        height: 35px;
+        width: 85px;
+        background: url(../images/catball_black.png) no-repeat center 2px;
+        background-size: 86px 35px;
+        margin: 10px 12px 0 0;
+    }
+    .list{
+        height:55px;
+        width:405px;
+        li{
+            float: left;
+            width: 75px;
+            height: 55px;
+            margin: 0 5px;
+            a{
+                width: 75px;
+                height: 55px;
+                font-size: 16px;
+                line-height: 55px;
+                text-align: center;
+            }
+        }
+        li:last-of-type{
+            a{
+                background: #aa968d;
+            }
+        }
+        li a:hover{
+            background: #aa968d;
+        }
+    }
+    .input{
+        height: 30px;
+        width: 170px;
+        margin: 12px 140px 0 0;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, .3);
+        input::-webkit-input-placeholder {
+           color: #fff;
+           font-size: 14px;
+           font-weight: 400px;
+        }
+        input{
+            float: left;
+            height: 30px;
+            border: none;
+            width: 120px;
+            background: rgba(0,0,0,0);
+            margin-left: 20px;
+            color:#fff;
+        }
+        a{
+            float: left;
+            height: 18px;
+            font-size: 18px;
+            color: #fff;
+            text-align: center;
+            margin-top: 4px;
+        }
+    }
+    .login{
+        float: right;
+        height: 55px;
+        width: 175px;
+        li{
+            float: left;
+            width: 75px;
+            height: 55px;
+            margin: 0 5px;
+            a{
+                width: 75px;
+                height: 55px;
+                line-height: 55px;
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+        li a:hover{
+            background: #aa968d;
+        }
+    }
+    .allready{
+        position: absolute;
+        height: 55px;
+        width: 248px;
+        left:812px;
+        display: none;
+        li{
+            float: left;
+        }
+        li:first-of-type{
+            width: 50px;
+            height: 55px;
+            margin-right: 10px;
+            a{
+                width: 40px;
+                height: 40px;
+                margin: 7px 0 0 5px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 20px;
+                }
+            }
+        }
+        li:nth-of-type(2){
+            width: 48px;
+            height: 55px;
+            margin-right: 20px;
+            a{
+                width: 20px;
+                height: 20px;
+                margin: 19px 0 0 14px;
+                color: #fff;
+                font-size: 18px;
+                line-height: 20px;
+            }
+        }
+        li:last-of-type{
+            width: 120px;
+            height:55px;
+            a{
+                width: 120px;
+                height: 35px;
+                background: #f8b107;
+                border-radius: 17px;
+                margin-top: 10px;
+                i{
+                    width:20px;
+                    height: 20px;
+                    float: left;
+                    margin:6px 7px 0 20px;
+                }
+                p{
+                    float: left;
+                    margin-top: 6px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.none{
+    display: none;
+}
+.show{
+    display: block!important;
+}
+#main{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.mainCon{
+    width:1200px;
+    margin: 0 auto;
+}
+.part{
+    width: 1000px;
+    height: 343px;
+    margin: 20px auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    background: #fff;
+    h2{
+        width: 960px;
+        margin: 0 20px;
+        height: 40px;
+        border-bottom: 1px solid #e6e6e6;
+        color: #f39800;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 40px;
+    }
+    ul{
+        width: 1000px;
+        height: 300px;
+        li{
+            float: left;
+            width: 225px;
+            padding: 0 15px 0 10px;
+            margin-top: 20px;
+            img{
+                width: 80px;
+                height: 80px;
+                float: left;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.entry{
+    float: left;
+    width: 135px;
+    height: 60px;
+    a{
+        font-size: 18px;
+        color:#333;
+    }
+    span{
+        font-size: 12px;
+        color: #333;
+        overflow: hidden;
+        height: 38px;
+        line-height: 19px;
+        display: inline-block;
+    }
+}
+.article{
+    width: 900px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding:0 50px;
+    margin: 0 auto;
+    background: #fff;
+    .content{
+        width: 900px;
+        height:150px;
+        padding: 20px 0;
+        position: relative;
+        .title{
+            width: 700px;
+            height: 41px;
+            a{
+                width: 700px;
+                height: 25px;
+                font-size: 18px;
+                color: #000;
+                font-weight: 900;
+            }
+            .name{
+                width: 700px;
+                height: 16px;
+                p{
+                    height: 16px;
+                    line-height: 16px;
+                    margin-right: 5px;
+                    font-size: 12px;
+                    color: #999;
+                    float: left;
+                }
+            }
+        }
+        .sort{
+            width: 105px;
+            height: 30px;
+            background: url(../images/boardico.png) no-repeat center;
+            line-height: 30px;
+            position: absolute;
+            top: 20px;
+            right: 0;
+            span{
+                display: inline-block;
+                width: 40px;
+                height: 30px;
+                line-height: 30px;
+                color: #fff;
+                font-weight: 900;
+                margin-left: 45px;
+            }
+        }
+        .box{
+            width: 850px;
+            height: 90px;
+            margin-top: 30px;
+            
+        }
+    }
+}
+footer{
+    height: 280px;
+    background: #fff;
+    .friend{
+        height: 201px;
+        padding-top: 30px;
+    }
+    .link{
+        width: 540px;
+        float: left;
+        margin-left: 150px;
+        h2{
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        ul{
+            li{
+                float: left;
+                a{
+                    width: 100px;
+                    height: 20px;
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+        }
+    }
+    .message{
+        float: left;
+        height: 146px;
+        width:260px;
+        margin-left: 50px;
+        h2{
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        ul{
+            width: 260px;
+            height: 40px;
+            li{
+                float: left;
+                a{
+                    width: 70px;
+                    height: 20px;
+                    color: #999;
+                    font-size: 12px;
+                }
+            }
+            li:nth-of-type(4){
+                a{
+                    width: 50px;
+                }
+            }
+        }
+        img{
+            width: 260px;
+            height: 46px;
+            margin-top: 20px;
+        }
+    }
+    .down{
+        height:50px;
+        .box{
+            width: 600px;
+            height: 20px;
+            margin-left: 350px;
+            a{
+                color: #999;
+                font-size: 12px;
+                float: left;
+            }
+            img{
+                width: 30px;
+                height:24px;
+                float:left;
+            }
+        }
+    }
+}

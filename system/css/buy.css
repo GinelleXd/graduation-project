@@ -1,0 +1,433 @@
+a {
+  display: block;
+  color: #fff; }
+
+body {
+  background: #f4f5f7; }
+
+.navCon, .bannerCon, .titleCon, .mainCon, .community, .friend, .down {
+  width: 1200px;
+  margin: 0 auto; }
+
+#nav {
+  height: 55px;
+  background: #785545; }
+
+.navCon {
+  height: 55px;
+  position: relative; }
+  .navCon .logo, .navCon .list, .navCon .input {
+    float: left; }
+  .navCon .logo {
+    height: 35px;
+    width: 85px;
+    background: url(../images/catball_black.png) no-repeat center;
+    background-size: 86px 35px;
+    margin: 10px 12px 0 0; }
+  .navCon .list {
+    height: 55px;
+    width: 405px; }
+    .navCon .list li {
+      float: left;
+      width: 75px;
+      height: 55px;
+      margin: 0 5px; }
+      .navCon .list li a {
+        width: 75px;
+        height: 55px;
+        font-size: 16px;
+        line-height: 55px;
+        text-align: center; }
+    .navCon .list li a:hover {
+      background: #aa968d; }
+  .navCon .input {
+    height: 30px;
+    width: 170px;
+    margin: 12px 140px 0 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3); }
+    .navCon .input input::-webkit-input-placeholder {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400px; }
+    .navCon .input input {
+      float: left;
+      height: 30px;
+      border: none;
+      width: 120px;
+      background: transparent;
+      margin-left: 20px;
+      color: #fff; }
+    .navCon .input a {
+      float: left;
+      height: 18px;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      margin-top: 4px; }
+  .navCon .login {
+    float: right;
+    height: 55px;
+    width: 175px; }
+    .navCon .login li {
+      float: left;
+      width: 75px;
+      height: 55px;
+      margin: 0 5px; }
+      .navCon .login li a {
+        width: 75px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        font-size: 16px; }
+    .navCon .login li a:hover {
+      background: #aa968d; }
+  .navCon .allready {
+    position: absolute;
+    height: 55px;
+    width: 248px;
+    left: 812px;
+    display: none; }
+    .navCon .allready li {
+      float: left; }
+    .navCon .allready li:first-of-type {
+      width: 50px;
+      height: 55px;
+      margin-right: 10px; }
+      .navCon .allready li:first-of-type a {
+        width: 40px;
+        height: 40px;
+        margin: 7px 0 0 5px; }
+        .navCon .allready li:first-of-type a img {
+          width: 40px;
+          height: 40px;
+          border-radius: 20px; }
+    .navCon .allready li:nth-of-type(2) {
+      width: 48px;
+      height: 55px;
+      margin-right: 20px; }
+      .navCon .allready li:nth-of-type(2) a {
+        width: 20px;
+        height: 20px;
+        margin: 19px 0 0 14px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 20px; }
+    .navCon .allready li:last-of-type {
+      width: 120px;
+      height: 55px; }
+      .navCon .allready li:last-of-type a {
+        width: 120px;
+        height: 35px;
+        background: #f8b107;
+        border-radius: 17px;
+        margin-top: 10px; }
+        .navCon .allready li:last-of-type a i {
+          width: 20px;
+          height: 20px;
+          float: left;
+          margin: 6px 7px 0 20px; }
+        .navCon .allready li:last-of-type a p {
+          float: left;
+          margin-top: 6px;
+          font-size: 14px; }
+
+.none {
+  display: none; }
+
+.show {
+  display: block !important; }
+
+#banner {
+  height: 245px;
+  background: url(../images/banner7.jpg) no-repeat center; }
+  #banner .bannerCon {
+    height: 245px; }
+
+#title {
+  height: 268px;
+  background: #fff; }
+
+.titleCon {
+  height: 238px;
+  padding: 10px 0 20px 0; }
+  .titleCon .pic {
+    width: 160px;
+    height: 219px;
+    float: left;
+    margin-right: 20px; }
+  .titleCon .message {
+    width: 720px;
+    height: 210px;
+    float: left; }
+    .titleCon .message .ititle {
+      width: 640px;
+      height: 50px;
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 5px;
+      line-height: 50px; }
+    .titleCon .message .address {
+      width: 720px;
+      height: 25px;
+      margin-bottom: 10px; }
+      .titleCon .message .address i {
+        width: 25px;
+        height: 25px;
+        display: block;
+        background: url(../images/ico-25.png) no-repeat;
+        background-position-y: -200px;
+        float: left; }
+      .titleCon .message .address .iwhere {
+        width: 223px;
+        height: 25px;
+        color: #666;
+        font-size: 14px;
+        float: left;
+        line-height: 25px; }
+    .titleCon .message .time {
+      width: 720px;
+      height: 25px;
+      margin-bottom: 10px; }
+      .titleCon .message .time i {
+        width: 25px;
+        height: 25px;
+        display: block;
+        background: url(../images/ico-25.png) no-repeat;
+        background-position-y: -225px;
+        float: left; }
+      .titleCon .message .time .itime {
+        width: 680px;
+        height: 25px;
+        color: #666;
+        font-size: 14px;
+        line-height: 25px;
+        float: left; }
+    .titleCon .message .val {
+      width: 670px;
+      height: 57px;
+      margin: 0 0 0 30px;
+      padding: 5px 0 0;
+      border-top: 1px solid #ddd; }
+      .titleCon .message .val .myval {
+        width: 90px;
+        height: 44px;
+        margin-right: 10px;
+        padding: 5px 0 0;
+        color: #f29b22;
+        font-size: 40px;
+        line-height: 40px;
+        float: left; }
+      .titleCon .message .val .tips {
+        width: 28px;
+        height: 56px;
+        font-size: 14px;
+        margin: 2px 20px 0 0;
+        color: #f29b22;
+        line-height: 56px;
+        float: left; }
+      .titleCon .message .val .price {
+        width: 92px;
+        height: 56px;
+        font-size: 14px;
+        color: #666;
+        line-height: 56px;
+        margin: 2px 20px 0 0;
+        float: left; }
+    .titleCon .message .refer {
+      width: 58px;
+      height: 25px;
+      margin: 2px 10px 0 20px;
+      font-size: 12px;
+      background: #ff5079;
+      color: #fff;
+      line-height: 25px;
+      text-align: center;
+      border-radius: 5px; }
+  .titleCon .buy {
+    width: 240px;
+    height: 130px;
+    float: left;
+    background: #ffbc47;
+    margin: 60px 0 0 30px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer; }
+
+#main {
+  background: #eaeaea; }
+
+.mainCon {
+  padding-top: 20px;
+  overflow: hidden; }
+  .mainCon .main_left {
+    width: 900px;
+    height: 1000px;
+    float: left;
+    margin-right: 20px; }
+    .mainCon .main_left .guest {
+      width: 860px;
+      height: 250px;
+      background: #fff;
+      padding: 10px 20px 20px;
+      margin-bottom: 20px; }
+
+.guest_top {
+  width: 860px;
+  height: 30px;
+  margin-bottom: 10px; }
+  .guest_top i {
+    display: block;
+    width: 4px;
+    height: 16px;
+    margin: 7px 5px 0 0;
+    background: #ff5079;
+    float: left; }
+  .guest_top h2 {
+    height: 30px;
+    color: #333;
+    font-size: 14px;
+    line-height: 30px;
+    float: left; }
+
+.guest_bottom {
+  width: 860px;
+  height: 200px;
+  padding-top: 10px; }
+  .guest_bottom li {
+    width: 130px;
+    height: 184px;
+    padding: 0 27px; }
+    .guest_bottom li img {
+      width: 130px;
+      height: 130px;
+      border-radius: 65px; }
+    .guest_bottom li p {
+      width: 130px;
+      height: 50px;
+      font-size: 14px;
+      color: #333;
+      line-height: 50px;
+      text-align: center; }
+
+.write {
+  width: 860px;
+  height: 250px;
+  background: #fff;
+  padding: 10px 20px 20px;
+  margin-bottom: 20px; }
+
+.write_top {
+  width: 860px;
+  height: 30px;
+  margin-bottom: 10px; }
+  .write_top i {
+    display: block;
+    width: 4px;
+    height: 16px;
+    margin: 7px 5px 0 0;
+    background: #ff5079;
+    float: left; }
+  .write_top h2 {
+    height: 30px;
+    color: #333;
+    font-size: 14px;
+    line-height: 30px;
+    float: left; }
+
+.write_bottom {
+  width: 860px;
+  height: 200px;
+  padding-top: 10px; }
+  .write_bottom textarea {
+    width: 850px;
+    height: 150px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    text-indent: 5px; }
+  .write_bottom .btn {
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background: #f29b22;
+    margin-left: 800px; }
+
+.s_post {
+  width: 900px; }
+
+.box {
+  width: 860px;
+  height: 116px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px; }
+  .box .box_top {
+    height: 50px;
+    width: 860px; }
+    .box .box_top img {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      float: left; }
+    .box .box_top h2 {
+      font-size: 18px;
+      height: 50px;
+      font-weight: 900;
+      color: #333;
+      float: left;
+      line-height: 50px;
+      margin-left: 10px; }
+    .box .box_top p {
+      height: 50px;
+      line-height: 50px;
+      font-size: 14px;
+      color: #666;
+      float: right; }
+  .box .box_bottom {
+    width: 860px;
+    height: 51px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666; }
+
+.main_right {
+  width: 240px;
+  height: 880px;
+  padding: 20px;
+  background: #fff;
+  float: left; }
+  .main_right .heart {
+    width: 240px;
+    height: 40px;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #dedede; }
+    .main_right .heart i {
+      width: 40px;
+      height: 40px;
+      float: left;
+      background: url(../images/ico1.png) no-repeat; }
+    .main_right .heart h2 {
+      width: 200px;
+      height: 40px;
+      font-size: 18px;
+      color: #333; }
+  .main_right ul {
+    width: 240px;
+    height: 826px; }
+    .main_right ul li {
+      width: 240px;
+      font-size: 12px;
+      color: #666;
+      padding: 5px 0; }
+
+/*# sourceMappingURL=buy.css.map */

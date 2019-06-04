@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/login.css"/>
+	</head>
+	<body>
+		<div id="header">
+			<div class="top">
+				<a href="">
+					<img src="./images/catball_black.png" alt="">
+				</a>
+				<p>欢迎登陆</p>
+			</div>
+		</div>
+		<div id="main">
+			<div class="mainCon">
+				<div class="box">
+					<ul class="change">
+						<li class="active1">
+							<p class="login">用户登录</p>
+						</li>
+						<span></span>
+						<li>
+							<p class="register">用户注册</p>
+						</li>
+					</ul>
+					<form action="./php/login.php" method="post" class="form1 active">
+						<ul>
+							<li>
+								<span class="sp1"></span><input type="text" class="in1" placeholder="请输入手机号" name="username">
+							</li>
+							<div class="c_clear_both"></div>
+							<li>
+								<span class="sp2"></span><input type="text" class="in2" placeholder="请输入密码" name="password">
+							</li>
+							<div class="c_clear_both"></div>
+							<li>
+								<p>验证码：</p><input type="text" class="in3" placeholder="验证码" name="identify"><img src="images/identify.png" alt="5522">
+							</li>
+							<div class="c_clear_both"></div>
+							<li>
+								<input type="checkbox" value="" class="in4"><span>记住我</span><a href="">忘记密码？</a>
+							</li>
+							<div class="c_clear_both"></div>
+							<li>
+								<input type="submit" name="submit" value="登录"/ class="in5">
+							</li>
+							<div class="c_clear_both"></div>
+						</ul>
+					</form>
+					<form action="" method="" class="form2">
+						<ul>
+							<li>
+								<input type="text" class="in1" placeholder="请输入手机号" name="username"><p>用户名：</p>
+							</li>
+							<div class="c_clear_both"></div>
+							<li>
+								<input type="text" class="in2" placeholder="请输入您的密码" name="password"><p>密码：</p>
+							</li>
+							<div class="c_clear_both"></div>
+							<li>
+								<input type="text" class="in3" placeholder="请再次输入密码" name="confirm"><p>确认密码：</p>
+							</li>
+							<div class="c_clear_both"></div>
+							<li>
+								<input type="checkbox" value="1" class="in4" name="check" checked><span>阅读并接受次元仓</span><a href="">[用户协议]</a>
+							</li>
+							<div class="c_clear_both"></div>
+							<li>
+								<input type="submit" name="submit" value="注册"/ class="in5">
+							</li>
+							<div class="c_clear_both"></div>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="down">
+				<p>
+				 ICP © 2017 广州脑动网络科技有限公司 版权所有 <a href="" target="_blank"> 免责声明</a>（备案号：<a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">粤ICP备15028368号</a>)
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="./js/login.js"></script>
+<script src="./js/jquery-1.11.2.min.js"></script>
+<script src="./js/common.js"></script>

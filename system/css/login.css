@@ -1,0 +1,265 @@
+@charset "UTF-8";
+a {
+  display: block; }
+
+body {
+  font-family: "幼圆"; }
+
+.top, .mainCon, .down {
+  width: 1040px;
+  margin: 0 auto; }
+
+#header {
+  height: 90px; }
+
+.top {
+  height: 90px; }
+  .top a {
+    width: 100px;
+    margin: 15px 0 0 20px;
+    float: left; }
+    .top a img {
+      width: 100px; }
+  .top p {
+    float: right;
+    width: 80px;
+    height: 90px;
+    color: #333;
+    line-height: 90px;
+    font-size: 20px;
+    margin-right: 20px; }
+
+#main {
+  height: 670px;
+  background: url(../images/login_bg.jpg) no-repeat top; }
+
+.c_clear_both {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.mainCon {
+  height: 670px; }
+  .mainCon .box {
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin: 130px 20px 0 0;
+    background: #fff;
+    opacity: .87;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 0 45px;
+    font-size: 16px;
+    position: relative; }
+    .mainCon .box .change {
+      height: 50px;
+      width: 300px; }
+      .mainCon .box .change .login {
+        width: 148px;
+        height: 26px;
+        font-size: 20px;
+        color: #333;
+        margin-top: 24px;
+        float: left;
+        text-align: center; }
+      .mainCon .box .change span {
+        width: 2px;
+        height: 18px;
+        margin-top: 27px;
+        background: #333;
+        display: block;
+        float: left; }
+      .mainCon .box .change .register {
+        width: 148px;
+        height: 26px;
+        font-size: 20px;
+        color: #333;
+        margin-top: 24px;
+        float: right;
+        text-align: center; }
+    .mainCon .box .form1 {
+      display: none;
+      position: absolute;
+      top: 50px; }
+      .mainCon .box .form1 li:nth-of-type(1) {
+        margin-top: 24px; }
+      .mainCon .box .form1 li:nth-of-type(2) {
+        margin-top: 20px; }
+      .mainCon .box .form1 li:nth-of-type(3) {
+        margin-top: 20px; }
+        .mainCon .box .form1 li:nth-of-type(3) p {
+          height: 42px;
+          font-size: 16px;
+          color: #666;
+          float: left;
+          line-height: 42px; }
+        .mainCon .box .form1 li:nth-of-type(3) img {
+          float: left;
+          margin-left: 18px; }
+      .mainCon .box .form1 li:nth-of-type(4) {
+        margin-top: 20px;
+        height: 13px; }
+        .mainCon .box .form1 li:nth-of-type(4) span {
+          font-size: 12px;
+          float: left;
+          margin: 0px 0 0 10px;
+          color: #666; }
+        .mainCon .box .form1 li:nth-of-type(4) a {
+          font-size: 12px;
+          float: right;
+          color: #666; }
+      .mainCon .box .form1 li:nth-of-type(5) {
+        margin-top: 20px; }
+      .mainCon .box .form1 .sp1 {
+        width: 42px;
+        height: 42px;
+        display: block;
+        float: left;
+        border-radius: 5px 0 0 5px;
+        background: url(../images/user.png) center no-repeat #d3d3d3; }
+      .mainCon .box .form1 .sp2 {
+        width: 42px;
+        height: 42px;
+        display: block;
+        float: left;
+        border-radius: 5px 0 0 5px;
+        background: url(../images/password.png) center no-repeat #d3d3d3; }
+      .mainCon .box .form1 .in1, .mainCon .box .form1 .in2 {
+        width: 234px;
+        height: 20px;
+        padding: 10px;
+        display: block;
+        float: left;
+        border: 1px solid #d3d3d3;
+        border-radius: 0 5px 5px 0;
+        color: #333; }
+      .mainCon .box .form1 .in3 {
+        width: 88px;
+        height: 20px;
+        padding: 10px;
+        border: 1px solid #d3d3d3;
+        border-radius: 5px;
+        display: block;
+        float: left; }
+      .mainCon .box .form1 .in4 {
+        float: left; }
+      .mainCon .box .form1 .in5 {
+        width: 160px;
+        height: 42px;
+        background: #ed3f3f;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+        line-height: 42px;
+        font-weight: 700;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        vertical-align: middle;
+        margin-left: 70px; }
+    .mainCon .box .form2 {
+      display: none;
+      position: absolute;
+      top: 50px; }
+      .mainCon .box .form2 li:nth-of-type(1) {
+        margin-top: 24px; }
+        .mainCon .box .form2 li:nth-of-type(1) p {
+          height: 42px;
+          font-size: 16px;
+          color: #666;
+          float: right;
+          line-height: 42px; }
+      .mainCon .box .form2 li:nth-of-type(2) {
+        margin-top: 20px; }
+        .mainCon .box .form2 li:nth-of-type(2) p {
+          height: 42px;
+          font-size: 16px;
+          color: #666;
+          float: right;
+          line-height: 42px; }
+      .mainCon .box .form2 li:nth-of-type(3) {
+        margin-top: 20px; }
+        .mainCon .box .form2 li:nth-of-type(3) p {
+          height: 42px;
+          font-size: 16px;
+          color: #666;
+          float: right;
+          line-height: 42px; }
+      .mainCon .box .form2 li:nth-of-type(4) {
+        margin-top: 20px;
+        height: 13px; }
+        .mainCon .box .form2 li:nth-of-type(4) span {
+          font-size: 12px;
+          float: left;
+          margin: 0px 0 0 10px;
+          color: #666; }
+        .mainCon .box .form2 li:nth-of-type(4) a {
+          font-size: 12px;
+          float: left;
+          color: #ed3f3f; }
+      .mainCon .box .form2 li:nth-of-type(5) {
+        margin-top: 20px; }
+      .mainCon .box .form2 .in1, .mainCon .box .form2 .in2 {
+        width: 160px;
+        height: 20px;
+        padding: 10px;
+        float: right;
+        border: 1px solid #d3d3d3;
+        border-radius: 0 5px 5px 0;
+        color: #333;
+        margin-right: 38px; }
+      .mainCon .box .form2 .in3 {
+        width: 160px;
+        height: 20px;
+        padding: 10px;
+        border: 1px solid #d3d3d3;
+        border-radius: 5px;
+        float: right;
+        color: #333;
+        margin-right: 38px; }
+      .mainCon .box .form2 .in4 {
+        float: left;
+        margin-left: 80px; }
+      .mainCon .box .form2 .in5 {
+        width: 160px;
+        height: 42px;
+        background: #ed3f3f;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+        line-height: 42px;
+        font-weight: 700;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        vertical-align: middle;
+        margin-left: 70px; }
+
+.active {
+  display: block !important; }
+
+.active1 p {
+  color: #ed3f3f !important; }
+
+#footer {
+  height: 107px; }
+
+.down {
+  width: 1040px;
+  height: 107px; }
+  .down p {
+    font-size: 12px;
+    width: 1040px;
+    height: 107px;
+    line-height: 107px;
+    text-align: center;
+    border-top: 1px solid #e1e1e1;
+    color: #6c6c6c; }
+    .down p a {
+      display: inline;
+      color: #000; }
+
+/*# sourceMappingURL=login.css.map */

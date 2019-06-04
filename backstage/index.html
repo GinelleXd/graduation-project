@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./images/catball_black.png" alt="">
+        </div>
+        <div class=" info">
+            <p id="js_userName">未登录</p>
+            <p id="js_logout" class="logout">退出</p>
+        </div>
+    </div>
+    <div class="container_detail">
+        <div class="tabbar">
+            <ul>
+                <li class="active">用户发帖管理</li>
+                <li>用户信息管理</li>
+                <li>漫展信息审核</li>
+                <li>漫展信息管理</li>
+            </ul>
+        </div>
+        <div class="article content">
+            <ul class="add_article">
+                
+            </ul>
+        </div>
+        <div class="user content">
+            <ul class="add_user">
+                
+            </ul>
+        </div>
+        <div class="message content">
+            <div class="add_message">
+
+            </div>
+        </div>
+        <div class="add content">
+            <h2>添加新的漫展</h2>
+            <div class="add_list">
+                <!-- <div class="detail">
+                <img src="./images/list-1.jpg" alt="" class="photo">
+                <div class="information">
+                    <i>标题：</i>
+                    <p class="title">重庆THANKS动漫游戏嘉年华</p>
+                    <i>日期：</i>
+                    <p class="time">5/18-5/19</p>
+                    <i>地址：</i>
+                    <p class="where">重庆市 重庆市 九龙坡区袁家岗城上城KLAND小时代乐园5楼香港地</p>
+                    <i>城市：</i>
+                    <p class="city">重庆市</p>
+                    <i>价格：</i>
+                    <p class="val">45-60</p>
+                    <i>嘉宾：</i>
+                    <p class="id">xx</p>
+                    <img src="./images/guest.jpg" alt="" class="gportrait">
+                </div>
+                <div class="button">
+                    <p class="delete">删除</p>
+                    <p class="examine">审核评论</p>
+                    <p class="change">修改</p>
+                </div>
+            </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="change_box">
+        <ul class="change_modity">
+            <li>
+                <p class="text">标题：</p>
+                <input type="text" class="ititle">
+            </li>
+            <li>
+                <p class="text">日期：</p>
+                <input type="text" class="itime">
+            </li>
+            <li>
+                <p class="text">地点：</p>
+                <input type="text" class="iwhere">
+            </li>
+            <li>
+                <p class="text">城市：</p>
+                <input type="text" class="icity">
+            </li>
+            <li>
+                <p class="text">价格：</p>
+                <input type="text" class="ival">
+            </li>
+            <li>
+                <p class="text">嘉宾：</p>
+                <input type="text" class="gid">
+            </li>
+            <li>
+                <p class="text">宣传图：</p>
+                <input type="file" name="file" id="logo">
+                <input type="text" class="logo">
+            </li>
+            <li>
+                <p class="text">嘉宾图片：</p>
+                <input type="file" name="file" id="portrait">
+                <input type="text" class="portrait">
+            </li>
+            <li>
+                <p class="sure">确定</p>
+                <p class="back">返回</p>
+            </li>
+        </ul>
+    </div>
+    <div class="new_box">
+        <ul class="new_modity">
+            <li>
+                <p class="text">标题：</p>
+                <input type="text" class="ititle">
+            </li>
+            <li>
+                <p class="text">日期：</p>
+                <input type="text" class="itime">
+            </li>
+            <li>
+                <p class="text">地点：</p>
+                <input type="text" class="iwhere">
+            </li>
+            <li>
+                <p class="text">城市：</p>
+                <input type="text" class="icity">
+            </li>
+            <li>
+                <p class="text">价格：</p>
+                <input type="text" class="ival">
+            </li>
+            <li>
+                <p class="text">嘉宾：</p>
+                <input type="text" class="gid">
+            </li>
+            <li>
+                <p class="text">宣传图：</p>
+                <input type="file" name="file" id="logo">
+                <input type="text" class="logo">
+            </li>
+            <li>
+                <p class="text">嘉宾图片：</p>
+                <input type="file" name="file" id="portrait">
+                <input type="text" class="portrait">
+            </li>
+            <li>
+                <p class="sure">确定</p>
+                <p class="back">返回</p>
+            </li>
+        </ul>
+    </div>
+    <div class="storage_box">
+        <ul class="storage_modity">
+            <li>
+                <p class="text">标题：</p>
+                <input type="text" class="stitle">
+            </li>
+            <li>
+                <p class="text">日期：</p>
+                <input type="text" class="stime">
+            </li>
+            <li>
+                <p class="text">地点：</p>
+                <input type="text" class="swhere">
+            </li>
+            <li>
+                <p class="text">城市：</p>
+                <input type="text" class="scity">
+            </li>
+            <li>
+                <p class="text">价格：</p>
+                <input type="text" class="sval">
+            </li>
+            <li>
+                <p class="text">嘉宾：</p>
+                <input type="text" class="gid">
+            </li>
+            <li>
+                <p class="text">宣传图：</p>
+                <input type="file" name="file" id="logo">
+                <input type="text" class="logo">
+            </li>
+            <li>
+                <p class="text">嘉宾图片：</p>
+                <input type="file" name="file" id="portrait">
+                <input type="text" class="portrait">
+            </li>
+            <li>
+                <p class="s_sure">确定</p>
+                <p class="s_back">返回</p>
+            </li>
+        </ul>
+    </div>
+    <div class="delete_box">
+        <div class="choose">
+            <h2>是否删除此条信息</h2>
+            <div class="box">
+                <p class="yes">是</p>
+                <p class="no">否</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./js/jquery-1.11.2.min.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/ajax.js"></script>
+<script src="./js/index.js"></script>

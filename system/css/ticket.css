@@ -1,0 +1,376 @@
+a {
+  display: block;
+  color: #fff; }
+
+body {
+  background: #f4f5f7; }
+
+.navCon, .mainCon, .community, .friend, .down {
+  width: 1200px;
+  margin: 0 auto; }
+
+#nav {
+  height: 55px;
+  background: #785545; }
+
+.navCon {
+  height: 55px;
+  position: relative; }
+  .navCon .logo, .navCon .list, .navCon .input {
+    float: left; }
+  .navCon .logo {
+    height: 35px;
+    width: 86px;
+    background: url(../images/catball_black.png) no-repeat;
+    background-size: 86px 35px;
+    margin: 10px 12px 0 0; }
+  .navCon .list {
+    height: 55px;
+    width: 405px; }
+    .navCon .list li {
+      float: left;
+      width: 75px;
+      height: 55px;
+      margin: 0 5px; }
+      .navCon .list li a {
+        width: 75px;
+        height: 55px;
+        font-size: 16px;
+        line-height: 55px;
+        text-align: center; }
+    .navCon .list li a:hover {
+      background: #aa968d; }
+  .navCon .input {
+    height: 30px;
+    width: 170px;
+    margin: 12px 140px 0 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3); }
+    .navCon .input input::-webkit-input-placeholder {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400px; }
+    .navCon .input input {
+      float: left;
+      height: 30px;
+      border: none;
+      width: 120px;
+      background: transparent;
+      margin-left: 20px;
+      color: #fff; }
+    .navCon .input a {
+      float: left;
+      height: 18px;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      margin-top: 4px; }
+  .navCon .login {
+    float: right;
+    height: 55px;
+    width: 175px; }
+    .navCon .login li {
+      float: left;
+      width: 75px;
+      height: 55px;
+      margin: 0 5px; }
+      .navCon .login li a {
+        width: 75px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        font-size: 16px; }
+    .navCon .login li a:hover {
+      background: #aa968d; }
+  .navCon .allready {
+    position: absolute;
+    height: 55px;
+    width: 248px;
+    left: 812px;
+    display: none; }
+    .navCon .allready li {
+      float: left; }
+    .navCon .allready li:first-of-type {
+      width: 50px;
+      height: 55px;
+      margin-right: 10px; }
+      .navCon .allready li:first-of-type a {
+        width: 40px;
+        height: 40px;
+        margin: 7px 0 0 5px; }
+        .navCon .allready li:first-of-type a img {
+          width: 40px;
+          height: 40px;
+          border-radius: 20px; }
+    .navCon .allready li:nth-of-type(2) {
+      width: 48px;
+      height: 55px;
+      margin-right: 20px; }
+      .navCon .allready li:nth-of-type(2) a {
+        width: 20px;
+        height: 20px;
+        margin: 19px 0 0 14px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 20px; }
+    .navCon .allready li:last-of-type {
+      width: 120px;
+      height: 55px; }
+      .navCon .allready li:last-of-type a {
+        width: 120px;
+        height: 35px;
+        background: #f8b107;
+        border-radius: 17px;
+        margin-top: 10px; }
+        .navCon .allready li:last-of-type a i {
+          width: 20px;
+          height: 20px;
+          float: left;
+          margin: 6px 7px 0 20px; }
+        .navCon .allready li:last-of-type a p {
+          float: left;
+          margin-top: 6px;
+          font-size: 14px; }
+
+.none {
+  display: none; }
+
+.show {
+  display: block !important; }
+
+#main {
+  height: 542px;
+  background: #f4f5f7; }
+
+.mainCon {
+  height: 800px; }
+
+.tips {
+  width: 1190px;
+  height: 62px;
+  color: #999;
+  font-size: 16px;
+  background: #eee;
+  padding-left: 10px;
+  line-height: 62px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea; }
+  .tips .buy {
+    width: 1200px;
+    height: 700px;
+    margin-bottom: 20px; }
+
+.buy_left {
+  width: 768px;
+  height: 436px;
+  padding: 15px 20px 5px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  float: left;
+  margin-right: 10px; }
+  .buy_left .message {
+    width: 735px;
+    height: 137px; }
+    .buy_left .message img {
+      width: 100px;
+      height: 137px;
+      float: left; }
+    .buy_left .message .word {
+      width: 600px;
+      height: 137px;
+      padding: 0 25px 0 10px;
+      float: left; }
+      .buy_left .message .word h2 {
+        width: 600px;
+        height: 50px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        color: #333; }
+      .buy_left .message .word p {
+        width: 600px;
+        height: 16px;
+        color: #999;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 10px; }
+  .buy_left .kind {
+    width: 770px;
+    height: 80px;
+    margin-top: 20px; }
+    .buy_left .kind h2 {
+      width: 80px;
+      height: 25px;
+      color: #333;
+      font-size: 20px;
+      font-weight: 900; }
+    .buy_left .kind .kind_choose {
+      width: 770px;
+      height: 55px; }
+      .buy_left .kind .kind_choose p {
+        width: 120px;
+        height: 38px;
+        margin: 15px 20px 0 0;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        color: #333;
+        line-height: 38px;
+        text-align: center;
+        border-radius: 5px;
+        float: left; }
+  .buy_left .scene {
+    width: 770px;
+    height: 132px; }
+    .buy_left .scene h2 {
+      width: 770px;
+      height: 25px;
+      font-size: 20px;
+      color: #333;
+      line-height: 25px;
+      margin-top: 15px;
+      font-weight: 900; }
+    .buy_left .scene .scene_choose {
+      width: 200px;
+      height: 75px;
+      margin-top: 15px;
+      border: 1px solid #f8b107;
+      background: #faefc3;
+      border-radius: 5px; }
+      .buy_left .scene .scene_choose p {
+        height: 21px;
+        font-size: 16px;
+        color: #333;
+        line-height: 21px;
+        text-align: center; }
+      .buy_left .scene .scene_choose p:first-of-type {
+        margin-top: 5px; }
+      .buy_left .scene .scene_choose p:last-of-type {
+        height: 16px;
+        color: #999;
+        font-size: 12px;
+        line-height: 16px; }
+
+.buy_right {
+  width: 338px;
+  height: 421px;
+  float: left;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  padding: 15px 20px 20px; }
+  .buy_right h2 {
+    width: 338px;
+    height: 25px;
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+    color: #333;
+    font-weight: 900;
+    line-height: 25px; }
+  .buy_right li {
+    width: 338px;
+    height: 19px;
+    padding: 10px 0; }
+    .buy_right li .i {
+      height: 19px;
+      width: 70px;
+      float: left;
+      font-size: 14px;
+      color: #333;
+      line-height: 19px; }
+    .buy_right li .cont {
+      width: 200px;
+      height: 19px;
+      float: left;
+      font-size: 14px;
+      color: #999;
+      line-height: 19px; }
+  .buy_right .right input {
+    font-size: 14px;
+    float: left; }
+  .buy_right .right span {
+    display: block;
+    width: 145px;
+    color: #999999;
+    font-size: 14px;
+    float: left; }
+  .buy_right .right a {
+    width: 56px;
+    height: 19px;
+    color: #f8b170;
+    font-size: 14px;
+    float: left; }
+  .buy_right button {
+    width: 338px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+    line-height: 50px;
+    background: #f46674;
+    border: none;
+    border-radius: 5px; }
+
+.active {
+  background: #faefc3;
+  border: 1px solid #f8b107 !important; }
+
+footer {
+  height: 280px;
+  background: #fff; }
+  footer .friend {
+    height: 201px;
+    padding-top: 30px; }
+  footer .link {
+    width: 540px;
+    float: left;
+    margin-left: 150px; }
+    footer .link h2 {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 10px; }
+    footer .link ul li {
+      float: left; }
+      footer .link ul li a {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        color: #999; }
+  footer .message {
+    float: left;
+    height: 146px;
+    width: 260px;
+    margin-left: 50px; }
+    footer .message h2 {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 10px; }
+    footer .message ul {
+      width: 260px;
+      height: 40px; }
+      footer .message ul li {
+        float: left; }
+        footer .message ul li a {
+          width: 70px;
+          height: 20px;
+          color: #999;
+          font-size: 12px; }
+      footer .message ul li:nth-of-type(4) a {
+        width: 50px; }
+    footer .message img {
+      width: 260px;
+      height: 46px;
+      margin-top: 20px; }
+  footer .down {
+    height: 50px; }
+    footer .down .box {
+      width: 600px;
+      height: 20px;
+      margin-left: 350px; }
+      footer .down .box a {
+        color: #999;
+        font-size: 12px;
+        float: left; }
+      footer .down .box img {
+        width: 30px;
+        height: 24px;
+        float: left; }
+
+/*# sourceMappingURL=ticket.css.map */
