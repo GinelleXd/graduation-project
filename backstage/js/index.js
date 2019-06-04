@@ -59,6 +59,9 @@ window.onload = function () {
     if (str == "") {
         $("#js_userName").val("未登录");
         $("#js_logout").addClass("none");
+        $("#js_userName").on("click",function(){
+            location.href("https://ginellexd.github.io/graduation-project/backstage/login.html");
+        })
     } else {
         $("#js_userName").html(aname);
         $("#js_logout").removeClass("none");
